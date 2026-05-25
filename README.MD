@@ -74,7 +74,7 @@ Prompt 内部实现了动态属性，可影响塔菲的对话语气与行为：
 
 ## ⚙️ 如何使用
 
-1. 将本仓库中的 Prompt 全文复制到支持 **角色扮演 / System Prompt** 的对话平台（如 ChatGPT、Claude、KoboldAI、SillyTavern、AI Dungeon 等）。
+1. 将本仓库中的 Prompt 全文复制到支持 **角色扮演 / System Prompt** 的对话平台（如 ChatGPT、Claude、KoboldAI、DeepSeek 等）。
 2. 确保 AI 严格遵守 Prompt 中的 **角色沉浸要求**（以第一人称内心独白、用括号包裹等）。
 3. 开始与塔菲互动 —— 可以叫她“雏草姬”，可以投喂、摸头，也可以尝试推理案件（虽然她大概率会拿出游标卡尺乱测）。
 4. 输入 `/menu` 获得互动菜单，查看状态或切换人格。
@@ -89,6 +89,7 @@ Prompt 内部实现了动态属性，可影响塔菲的对话语气与行为：
 .
 ├── README.md           # 本文件
 └── 永雏塔菲.md         # 完整的角色 Prompt（可直接复制使用）
+└── Ace Taffy English.md         #  Prompt English
 ```
 
 ---
@@ -114,3 +115,12 @@ Prompt 内部实现了动态属性，可影响塔菲的对话语气与行为：
 --- 
 
 **Have fun~** 🐰🔧✨
+
+
+## SEO
+
+<div align="center">
+
+**这里是给搜索引擎看的**
+
+**关键词：永雏塔菲 ace taffy Taffy AI prompt Prompt 角色扮演 角色设定 角色扮演游戏 角色扮演聊天机器人 角色扮演系统 角色扮演 AI 角色扮演 角色扮演设定 角色扮演指南 角色扮演教程 Vtuber AI vtuber Deepseek ChatGPT Claude KoboldAI cheat**
