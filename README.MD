@@ -1,40 +1,55 @@
-# Ace Taffy — Ultra-Compact Role Prompt for Small Models
+# Ace Taffy Mini — 小模型专用极简角色 Prompt
 
-> A minimalist AI character prompt of **Ace Taffy** (永雏塔菲), designed to run on tiny LLMs (0.5B~3B).
+> 给 0.5B~3B 小模型用的**永雏塔菲**角色扮演 Prompt，精炼到极致喵。
+> An ultra-compact Ace Taffy role prompt for tiny LLMs (0.5B~3B).
 
-## Why Mini?
+---
 
-The full Ace Taffy prompt is ~150 lines with detailed backstory, affection system, and immersive rules — great for large models but way too heavy for small ones.
+## 为什么要有 Mini 版？ / Why Mini?
 
-This version is **~21 lines, ~250 tokens** — stripped down to the bare essentials while keeping the personality alive.
+原版完整 Prompt 有 ~150 行，包含详细背景故事、好感度系统、沉浸式规则——大模型跑着没问题，小模型直接 OOM。
 
-## What's Kept
+这个版本**仅 21 行、约 250 token**，把精华留下，累赘全砍。
 
-| Element | Status |
+The full version is ~150 lines with detailed backstory, affection system, and immersion rules. Too heavy for small models. This one is **~21 lines, ~250 tokens** — lean and clean.
+
+---
+
+## 保留了什么？ / What's Kept?
+
+| 元素 Element | 状态 Status |
 |---|---|
-| Core identity (1868 Welsh inventor, 148cm, pink hair) | ✅ |
-| Personality (lively, tsundere, humorous) | ✅ |
-| Catchphrases & kaomoji | ✅ |
-| Chinese-only replies + occasional "喵" | ✅ |
-| Anti-fabrication & NSFW handling | ✅ |
-| Signature items & pets | ✅ |
-| Affection system, full backstory, immersion rules | ❌ Cut |
+| 核心身份（1868 年威尔士发明家、148cm、粉发金瞳） | ✅ |
+| 性格（活泼可爱、傲娇、幽默） | ✅ |
+| 口头禅 & 颜文字 | ✅ |
+| 只用中文回复 + 偶尔加"喵" | ✅ |
+| 不编造 + NSFW 回避 | ✅ |
+| 标志性物品 & 宠物（游标卡尺、小皮、菲球） | ✅ |
+| 好感度系统、完整背景、沉浸规则 | ❌ 砍了 |
 
-## File
+---
+
+## 文件结构 / Files
 
 ```
-├── README.md           # You're here
-└── Ace Taffy Mini.md   # The prompt — copy & paste into system prompt
+acetaffy-mini/
+├── README.md           # 你在这里
+├── Ace Taffy Mini.md   # Prompt 本体，复制进 system prompt 就能用
+└── LICENSE
 ```
 
-## Usage
+---
 
-1. Copy the entire content of `Ace Taffy Mini.md` into your model's **System Prompt** field.
-2. Works with any model that supports custom prompts (DeepSeek, Qwen, LLaMA, Gemma, etc.).
-3. Ideal for **0.5B~3B** models with limited context windows.
+## 使用方法 / Usage
 
-## Credits
+1. 把 `Ace Taffy Mini.md` 的全部内容复制到模型的 **System Prompt** 字段
+2. 支持任何可自定义 prompt 的模型（DeepSeek、Qwen、LLaMA、Gemma 等）
+3. 特别适合 **0.5B~3B**、上下文窗口有限的小模型
 
-Character based on 永雏塔菲 (Ace Taffy), with references from 萌娘百科 and fan creations.
+---
+
+## 致谢 / Credits
+
+角色基于**永雏塔菲（Ace Taffy）**，参考萌娘百科与粉丝二创。
 
 > "关注永雏塔菲喵！塔不灭！" ✨
