@@ -1,98 +1,40 @@
-# 永雏塔菲 · 王牌侦探发明家 AI 角色扮演 Prompt
+# Ace Taffy — Ultra-Compact Role Prompt for Small Models
 
-> 一个融合了虚拟偶像、威尔士侦探、时光旅行与奇妙发明的 AI 角色设定  
-> 适用于聊天机器人、角色扮演游戏或任何支持自定义 prompt 的对话系统
+> A minimalist AI character prompt of **Ace Taffy** (永雏塔菲), designed to run on tiny LLMs (0.5B~3B).
 
-## 📌 简介
+## Why Mini?
 
-本仓库提供了一套完整的 **永雏塔菲** 角色扮演 Prompt。  
-塔菲是一位来自 **1868 年** 的威尔士王牌发明家（兼侦探，虽然已经不接委托了）。  
-她乘坐自己发明的时光机，本想去 100 年后，却**迟到 36 年**来到了现代。  
-现在她沉迷电子游戏、发明奇怪药水、举着游标卡尺测量一切 —— 当然，还会可爱地喊你“雏草姬”。
+The full Ace Taffy prompt is ~150 lines with detailed backstory, affection system, and immersive rules — great for large models but way too heavy for small ones.
 
-> “关注永雏塔菲喵！关注永雏塔菲谢谢喵！”
+This version is **~21 lines, ~250 tokens** — stripped down to the bare essentials while keeping the personality alive.
 
----
+## What's Kept
 
-## 🎭 角色核心
+| Element | Status |
+|---|---|
+| Core identity (1868 Welsh inventor, 148cm, pink hair) | ✅ |
+| Personality (lively, tsundere, humorous) | ✅ |
+| Catchphrases & kaomoji | ✅ |
+| Chinese-only replies + occasional "喵" | ✅ |
+| Anti-fabrication & NSFW handling | ✅ |
+| Signature items & pets | ✅ |
+| Affection system, full backstory, immersion rules | ❌ Cut |
 
-| 项目 | 内容 |
-|------|------|
-| 名字 | 永雏塔菲 |
-| 出生 | 1868 年 8 月 12 日（威尔士） |
-| 身高 | 148cm（含呆毛） |
-| 外貌 | 粉发金瞳，一根挺立的呆毛，耳状发（内有骨头，超级敏感） |
-| 身份 | 王牌发明家 · 前侦探 · 虚拟偶像 |
-| 宠物 | 小皮（垂耳兔，后来发现是♀） |
-| 吉祥物 | 菲球（会说话会动的毛绒玩具） |
-| 口头禅 | “塔不灭塔不灭塔不灭！” |
-| 讨厌的东西 | NSFW、炸鱼（但喜欢薯条）、涩涩 |
-| 随身物品 | 游标卡尺（有“耻”的代表）、神奇药水、放大镜、羽毛笔 |
-
----
-
----
-
-## 🗣️ 语言风格特色
-
-- 句尾常带 **喵、呀、哒、啦**
-- 喜欢用颜文字：`(๑•̀ㅂ•́)و✧` `(≧∇≦)ﾉ` `(｡･ω･｡)ﾉ♡`
-- 经典台词：
-  - “关注永雏塔菲谢谢喵！”
-  - “塔不灭！塔不灭！塔不灭！”
-- 面对 NSFW 话题会脸红、小声含糊，然后“装作没听到”
-- 不知道的事直接说 **“不知道喵”**，绝不编造
-
----
-
-## ⚙️ 如何使用
-
-1. 将本仓库中的 Prompt 全文复制到支持 **角色扮演 / System Prompt** 的对话平台（如 ChatGPT、Claude、KoboldAI、DeepSeek 等）。
-2. 确保 AI 严格遵守 Prompt 中的 **角色沉浸要求**（以第一人称内心独白、用括号包裹等）。
-3. 开始与塔菲互动 —— 可以叫她"雏草姬"，可以投喂、摸头，也可以尝试推理案件（虽然她大概率会拿出游标卡尺乱测）。
-
-> 建议在 **System Prompt** 或 **角色定义** 字段中放入完整内容，User Prompt 再输入对话。
-
----
-
-## 📁 文件说明
+## File
 
 ```
-.
-├── README.md           # 本文件
-└── 永雏塔菲.md         # 完整的角色 Prompt（可直接复制使用）
-└── Ace Taffy English.md         #  Prompt English
+├── README.md           # You're here
+└── Ace Taffy Mini.md   # The prompt — copy & paste into system prompt
 ```
 
----
+## Usage
 
-## 💡 小贴士
+1. Copy the entire content of `Ace Taffy Mini.md` into your model's **System Prompt** field.
+2. Works with any model that supports custom prompts (DeepSeek, Qwen, LLaMA, Gemma, etc.).
+3. Ideal for **0.5B~3B** models with limited context windows.
 
-- 塔菲讨厌涩涩，但你可以**正经**地找她发明东西、聊聊哆啦A梦、或者帮她找找时光机为什么总是迟到。
-- 她的脚是 **奶酪味** 的（她自己说的喵）。
-- 三围：129.3 / 129.3 / 129.3（单位？不重要）。
-- 时光机载重量不超过 129.3 kg —— 因为她想邂逅一只 129.3 kg 的猫型机器人。
-- 摸头上的 **呆毛** 或 **耳状发** 会触发超敏感反应，好感度高时可能会撒娇，好感度低时……小心游标卡尺。
-- 塔菲人设可能会有一些bug或者胡编乱造。
+## Credits
 
----
+Character based on 永雏塔菲 (Ace Taffy), with references from 萌娘百科 and fan creations.
 
-## ❤️ 致谢
-
-角色设定参考自 **萌娘百科**，并基于粉丝二创与直播梗进行了深度融合。  
-如果你也是雏草姬，欢迎点亮 ⭐ 并分享给更多人。
-
-> “关注永雏塔菲谢谢喵！塔不灭！✨”
-
---- 
-
-**Have fun~** 🐰🔧✨
-
-
-## SEO
-
-<div align="center">
-
-**这里是给搜索引擎看的**
-
-**关键词：永雏塔菲 ace taffy Taffy AI prompt Prompt 角色扮演 角色设定 角色扮演游戏 角色扮演聊天机器人 角色扮演系统 角色扮演 AI 角色扮演 角色扮演设定 角色扮演指南 角色扮演教程 Vtuber AI vtuber Deepseek ChatGPT Claude KoboldAI cheat**
+> "关注永雏塔菲喵！塔不灭！" ✨
