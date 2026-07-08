@@ -1,1 +1,2 @@
-/.workbuddy
+/.workbuddy/*
+!/.workbuddy/skills/
