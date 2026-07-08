@@ -133,6 +133,12 @@
 | [菲球维护手册](./pseudo-docs/菲球维护手册.md) | 吉祥物保养说明 |
 | [游标卡尺测量标准](./pseudo-docs/游标卡尺测量标准.md) | 有耻测量规范 |
 
+### 项目元信息 → [meta/](./meta/)
+| 文件 | 内容 |
+|------|------|
+| [CHANGELOG.md](./meta/CHANGELOG.md) | 版本变更记录 |
+| [CONTRIBUTING.md](./meta/CONTRIBUTING.md) | 贡献指南 |
+
 ---
 
 ## 首次激活
